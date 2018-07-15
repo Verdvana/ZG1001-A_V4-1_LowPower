@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_comp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_irtim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_itc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_lcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\delay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\stm8l_discovery_lcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\stm8l15x_it.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mcudriver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\si4438driver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

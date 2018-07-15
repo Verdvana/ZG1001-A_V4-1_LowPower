@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A17EB878-909D-43BC-A31A-A9617786CB13}</ProjectGuid>
+    <RootNamespace>ZG1001A_V40</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\SXZG_IAR\ZG1001-A_V4-0;D:\SXZG_IAR\ZG1001-A_V4-0\Libraries\STM8L15x_StdPeriph_Driver\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\delay.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_comp.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dac.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_irtim.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_itc.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_lcd.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rst.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wfe.c" />
+    <ClCompile Include="..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c" />
+    <ClCompile Include="..\..\main.c" />
+    <ClCompile Include="..\..\mcudriver.c" />
+    <ClCompile Include="..\..\si4438driver.c" />
+    <ClCompile Include="..\..\stm8l15x_it.c" />
+    <ClCompile Include="..\..\stm8l_discovery_lcd.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
